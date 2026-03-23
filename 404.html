@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — Page Not Found | Rony Zeenaldeen</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@800&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#FFFFFF; --accent:#0A7CFF; --accent2:#00B386; --text:#0D1117; --muted:#57606A; --border:#D0D7DE; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--text); font-family:'Syne',sans-serif; min-height:100vh; display:flex; align-items:center; justify-content:center; text-align:center; padding:40px; }
+  body::before { content:''; position:fixed; inset:0; background-image:radial-gradient(circle,rgba(10,124,255,0.05) 1px,transparent 1px); background-size:32px 32px; pointer-events:none; }
+  .wrap { position:relative; z-index:1; max-width:500px; }
+  .code { font-family:'Space Mono',monospace; font-size:clamp(80px,20vw,140px); font-weight:700; color:var(--accent); line-height:1; opacity:0.15; }
+  h1 { font-size:clamp(24px,5vw,40px); font-weight:800; margin-top:16px; }
+  p { font-family:'Space Mono',monospace; font-size:13px; color:var(--muted); margin-top:12px; line-height:1.7; }
+  .home-btn { display:inline-flex; align-items:center; gap:8px; margin-top:32px; padding:14px 28px; background:var(--accent); color:#fff; text-decoration:none; font-family:'Space Mono',monospace; font-size:12px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; border-radius:6px; transition:all 0.2s; }
+  .home-btn:hover { background:#0066dd; transform:translateY(-2px); box-shadow:0 8px 24px rgba(10,124,255,0.3); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="code">404</div>
+    <h1>Page Not Found</h1>
+    <p>Looks like this route doesn't exist.<br>Let's get you back to the portfolio.</p>
+    <a href="/" class="home-btn">← Back to Home</a>
+  </div>
+</body>
+</html>
